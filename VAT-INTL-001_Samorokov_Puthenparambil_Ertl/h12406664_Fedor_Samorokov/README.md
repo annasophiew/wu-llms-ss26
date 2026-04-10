@@ -31,7 +31,7 @@ This is the **only model that uses the OpenAI API** (for embeddings and generati
 
 - **Run locally** (VS Code or Jupyter)
 - **Requires an OpenAI API key** — set `API_KEY` in the notebook before running
-- The 3 PDF files must be present in `../../Context/Gesetze/`
+- The 3 PDF files must be present in `../Context/Gesetze/`
 - ~15-20 minutes, costs ~$0.50 in API calls
 
 ## API Usage
@@ -52,7 +52,7 @@ Per the course requirements, only **one model may use an external API**. In this
 2. For Model 3: get an OpenAI API key from https://platform.openai.com/api-keys and paste it into the notebook
 3. Run `model1_inference.ipynb` locally
 4. Upload `model2_finetune.ipynb` + `training_data.csv` to Google Colab, enable T4 GPU, run all cells, download `model2_results.csv`
-5. Run `model3_rag.ipynb` locally (ensure the 3 law PDFs are in `../../Context/Gesetze/`)
+5. Run `model3_rag.ipynb` locally (ensure the 3 law PDFs are in `../Context/Gesetze/`)
 6. All results are saved in `results/`
 
 ## File Structure
